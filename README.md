@@ -1,10 +1,5 @@
-# wildfire-smoke-detector
-ML project for wildfire smoke detection with YOLOv8. 
-
-Follow this [article](https://rihab-feki.medium.com/ml-project-using-yolov8-roboflow-dvc-and-mlflow-on-dagshub-3e5c0b026297) as a detailed guide. 
-
-
-This project is connected to a repository on [DagsHub](https://dagshub.com/Rihab.Feki/wildfire-smoke-detector). 
+# YOLOv8_WBC
+ML project for WBC detection with YOLOv8. 
 
 **DagsHub** is a GitHub for Machine Learning projects. It eases MLOps practices by enabling data scientists and machine learning engineers to version their data, models, experiments, and code, through its integration with [DVC](https://dvc.org/doc) and [MLflow](https://mlflow.org/docs/latest/index.html). 
 

@@ -2,7 +2,7 @@ stages:
   train:
     cmd: python src/train.py
     deps:
-    - data/raw/wildfire-raw-yolov8
+    - data/raw/wbc
     - src/train.py
     - src/utils.py
     - params.yaml
@@ -16,6 +16,6 @@ stages:
   test:
     cmd: python src/predict.py
     deps:
-      - data/raw/wildfire-raw-yolov8
+      - data/raw/wbc
       - models/model.pt
       - src/predict.py
