@@ -3,7 +3,7 @@ stages:
   train:
     cmd: python src/train.py
     deps:
-    - path: data/raw/wildfire-raw-yolov8
+    - path: data/raw/wbc
       md5: ffe9083905cf64817ca61146b3356bb6.dir
       size: 28867246
       nfiles: 1482
@@ -29,7 +29,7 @@ stages:
   test:
     cmd: python src/predict.py
     deps:
-    - path: data/raw/wildfire-raw-yolov8
+    - path: data/raw/wbc
       md5: ffe9083905cf64817ca61146b3356bb6.dir
       size: 28867246
       nfiles: 1482

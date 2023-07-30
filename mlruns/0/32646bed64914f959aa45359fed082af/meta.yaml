@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/dda/Desktop/YOLOv8_WBC/mlruns/0/32646bed64914f959aa45359fed082af/artifacts
+end_time: 1690623871621
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 32646bed64914f959aa45359fed082af
+run_name: yolov8n_exp_v1
+run_uuid: 32646bed64914f959aa45359fed082af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690623869552
+status: 4
+tags: []
+user_id: dda

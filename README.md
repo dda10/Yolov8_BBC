@@ -38,7 +38,7 @@ Project Organization
 
 1. Clone the project: 
 ````shell 
-git clone https://github.com/RihabFekii/
+git clone https://github.com/dda10/Yolov8_WBC
 ````
 
 2. Set up a virtual python environment, by running the following commands:

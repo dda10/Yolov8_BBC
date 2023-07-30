@@ -1,0 +1,16 @@
+train: C:\\Users\\dda\\Desktop\\YOLOv8_WBC\\data\\raw\\wbc\\train
+val: C:\\Users\\dda\\Desktop\\YOLOv8_WBC\\data\\raw\\wbc\\valid
+test: C:\\Users\\dda\\Desktop\\YOLOv8_WBC\\data\\raw\\wbc\\
+
+
+test
+
+nc: 5
+names: ['-', 'eosi', 'lymp', 'mono', 'neut']
+
+roboflow:
+  workspace: atoany
+  project: wbc_bccd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/atoany/wbc_bccd/dataset/1

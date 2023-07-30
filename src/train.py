@@ -14,9 +14,10 @@ load_dotenv()
 MLFLOW_TRACKING_URI=os.getenv('MLFLOW_TRACKING_URI')
 
 root_dir = Path(__file__).resolve().parents[1]  # root directory absolute path
-data_dir = os.path.join(root_dir, "data/raw/wildfire-raw-yolov8")
+data_dir = os.path.join(root_dir, "data/raw/wbc")
 data_yaml_path = os.path.join(data_dir, "data.yaml")
 metrics_path = os.path.join(root_dir, 'reports/train_metrics.json')
+
 
 
 if __name__ == '__main__':
